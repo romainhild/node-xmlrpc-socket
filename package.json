@@ -1,0 +1,35 @@
+{ "name" : "xmlrpc-socket"
+, "description" : "A pure JavaScript XML-RPC client working with socket."
+, "keywords" : [ "xml-rpc", "xmlrpc", "xml", "rpc" ]
+, "version" : "1.0.0"
+, "preferGlobal" : false
+, "homepage" : "https://github.com/romainhild/xmlrpc-socket"
+, "author" : "Romain Hild <romain.hild@me.com> (https://github.com/romainhild)"
+, "repository" : {
+    "type" : "git"
+  , "url" : "git://github.com/romainhild/node-xmlrpc-socket.git"
+  }
+, "bugs" : {
+    "url" : "https://github.com/romainhild/node-xmlrpc-socket/issues"
+  }
+, "directories" : {
+    "lib" : "./lib"
+  }
+, "main" : "./lib/xmlrpc.js"
+, "dependencies" : {
+    "sax"   : "1.2.x"
+  , "xmlbuilder" : "8.2.x"
+  }
+, "devDependencies" : {
+    "vows" : "0.7.x"
+  }
+, "scripts" : {
+    "test" : "vows 'test/*.js'"
+  }
+, "engines" : {
+    "node" : ">=0.8",
+    "npm" : ">=1.0.0"
+  }
+, "license" : "MIT"
+}
+
